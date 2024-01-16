@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>SUPRA SPORT</title>
+
+	<link rel="stylesheet" type="text/css" href="TheStyle.css">
+
+</head>
+<body class="bg1">
+
+
+	<div class="sidenav">
+    <div class="header">
+        <div class="header-right">
+            <a href="index.html" class="logo">
+                <img src="IconSmall.png" style="width: 50px; height: 50px;" alt="Logo">
+            </a>
+        </div>
+    </div>
+
+    <a href="home.html" class="onPassive">HOME</a>
+    <a href="info.html" class="onPassive">INFO</a>
+    <a href="schedule.html" class="onPassive">SCHEDULE</a>
+    <a href="reservation.html" class="onPassive">RESERVATION</a>
+    <a href="news.html" class="onPassive">NEWS</a>
+    <a href="clubs.html" class="active">CLUBS</a>
+    <a href="contact.html" class="onPassive">CONTACT</a>
+</div>
+
+
+<div class="main blackEm">
+
+	<div class="bg2 containerBy3 flex-container">
+		<p>SUPRA SPORT CLUBS</p>
+		<br>
+	</div>
+
+	<div class="containerBy3 flex-container paddings">
+    <div class="bg2 halfLeft1 flex-child responsive paddings">
+        <button type="button" class="collapsible">
+            <img src="logoCekakMalaysia.jpeg" class="centerImgfirst iconMedium">
+        </button>
+        <div class="content-container">
+            <p>PERSATUAN SILAT CEKAK MALAYSIA</p>
+            <a class="contentz">Silat Cekak Malaysia ialah salah sebuah seni silat Melayu asli yang pernah diamalkan oleh panglima kanan kerajaan Kedah di zaman di zaman Kesultanan Sultan Ahmad Tajuddin II. Ia mempunyai hanya 21 buah matapelajaran, yang mana ia menekankan kepada 99% mempertahankan diri dan 1% menyerang</a>
+        </div>
+    </div>
+</div>
+
+<div class="containerBy3 flex-container paddings">
+    <div class="bg2 halfRight1 flex-child responsive paddings">
+        <button type="button" class="collapsible">
+            <img src="logoCekakHanafi.png" class="centerImgfirst iconMedium">
+        </button>
+        <div class="content-container">
+            <p>PERSATUAN SENI SILAT CEKAK USTAZ HANAFI</p>
+            <a class="contentz">Persatuan Seni Silat Cekak Ustaz Hanafi UPM (PSSCUHUPM) ialah sebuah kelab di bawah naungan Persatuan Seni Silat Cekak Ustaz Hanafi Malaysia. Seni Silat Cekak yang benar-benar diamal dan dianjurkan oleh Allahyarham Ustaz Hanafi Bin Haji Ahmad, baik dari segi kaedah pembelajaran, konsep, falsafah, prinsip, pegangan, kerohanian, dan pembawaannya. Seni silat ini telah diamalkan oleh keluarga diraja dan panglima-panglima kanan di Negeri Kedah Darul Aman di zaman pemerintahan Sultan Ahmad Tajuddin (1854-1879). Allahyarham Ustaz Hanafi Bin Haji Ahmad telah mengambil silat ini dari Allahyarham Encik Yahya Bin Said. Bermulalah era baru bagi silat ini sejak dizahirkan kembali oleh Allahyarham Ustaz Hanafi Bin Haji Ahmad. Allahyarham Ustaz Hanafi Bin Haji Ahmad telah memberi semangat dan pendekatan baru serta berjaya mengangkat martabat dan Seni Silat Cekak sebagai satu pergerakan yang boleh memberi sumbangan kepada masyarakat</a>
+        </div>
+    </div>
+</div>
+
+<div class="containerBy3 flex-container paddings">
+    <div class="bg2 halfLeft1 flex-child responsive paddings">
+        <button type="button" class="collapsible">
+            <img src="logoRugby.png" class="centerImgfirst iconMedium">
+        </button>
+        <div class="content-container">
+            <p>PERSATUAN RUGBY TERENGGANU</p>
+            <a class="contentz">PENYU SUKAN merupakan agensi berita sukan yang berpusat di Kuala Terengganu secara rasminya beroperasi pada 1 Januari 2018 di bawah entiti perniagaan GOMBUGDOTNET berdaftar dengan Suruhanjaya Syarikat Malaysia (Nombor SSM: TR0109982-D). Menawarkan perkhidmatan dan kandungan media berteraskan sukan yang diasaskan oleh bekas editor agensi berita sukan di ibu negara di mana turut pernah terlibat dalam beberapa penganjuran sukan di dalam negara mahupun antarabangsa bagi perkhidmatan dan pengurusan berkaitan media dan publisiti</a>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+	
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("activee");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
